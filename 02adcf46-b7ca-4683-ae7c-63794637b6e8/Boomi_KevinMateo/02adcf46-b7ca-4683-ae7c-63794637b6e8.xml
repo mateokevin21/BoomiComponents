@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Boomi_KevinMateo" componentId="02adcf46-b7ca-4683-ae7c-63794637b6e8" version="10" name="Hello World" type="process" createdDate="2022-09-01T13:31:31Z" createdBy="kevin.mateo@boomi.com" modifiedDate="2022-10-25T04:05:49Z" modifiedBy="kevin.mateo@boomi.com" deleted="false" currentVersion="true" folderName="Boomi_KevinMateo" folderId="RjoyMzc5NDAw">
+  <bns:encryptedValues/>
+  <bns:description/>
+  <bns:object>
+    <process xmlns="" allowSimultaneous="true" enableUserLog="false" processLogOnErrorOnly="false" purgeDataImmediately="false" updateRunDates="false" workload="general">
+      <shapes>
+        <shape image="start" name="shape1" shapetype="start" userlabel="Listener" x="48.0" y="48.0">
+          <configuration>
+            <connectoraction actionType="Listen" allowDynamicCredentials="NONE" connectorType="wss" hideSettings="true" operationId="bb43dec5-f30e-4ab1-923d-611e46044fad">
+              <parameters/>
+              <dynamicProperties/>
+            </connectoraction>
+          </configuration>
+          <dragpoints>
+            <dragpoint name="shape1.dragpoint1" toShape="shape2" x="224.0" y="57.0">
+              <linesegment length="0" name="shape1.dragpoint1.lineseg1" orient="horizontal" x="82.0" y="63.0"/>
+              <linesegment length="0" name="shape1.dragpoint1.lineseg2" orient="vertical" x="82.0" y="63.0"/>
+              <linesegment length="79" name="shape1.dragpoint1.lineseg3" orient="horizontal" x="82.0" y="63.0"/>
+              <linesegment length="0" name="shape1.dragpoint1.lineseg4" orient="vertical" x="161.0" y="63.0"/>
+              <linesegment length="63" name="shape1.dragpoint1.lineseg5" orient="horizontal" x="161.0" y="63.0"/>
+            </dragpoint>
+          </dragpoints>
+        </shape>
+        <shape image="message_icon" name="shape2" shapetype="message" userlabel="" x="240.0" y="48.0">
+          <configuration>
+            <message combined="false">
+              <msgTxt>Hello World! Success 200ok
+</msgTxt>
+              <msgParameters/>
+            </message>
+          </configuration>
+          <dragpoints>
+            <dragpoint name="shape2.dragpoint1" toShape="shape3" x="416.0" y="57.0">
+              <linesegment length="0" name="shape2.dragpoint1.lineseg1" orient="horizontal" x="274.0" y="63.0"/>
+              <linesegment length="0" name="shape2.dragpoint1.lineseg2" orient="vertical" x="274.0" y="63.0"/>
+              <linesegment length="79" name="shape2.dragpoint1.lineseg3" orient="horizontal" x="274.0" y="63.0"/>
+              <linesegment length="0" name="shape2.dragpoint1.lineseg4" orient="vertical" x="353.0" y="63.0"/>
+              <linesegment length="63" name="shape2.dragpoint1.lineseg5" orient="horizontal" x="353.0" y="63.0"/>
+            </dragpoint>
+          </dragpoints>
+        </shape>
+        <shape image="returndocuments_icon" name="shape3" shapetype="returndocuments" userlabel="" x="432.0" y="48.0">
+          <configuration>
+            <returndocuments label=""/>
+          </configuration>
+          <dragpoints/>
+        </shape>
+      </shapes>
+    </process>
+  </bns:object>
+  <bns:processOverrides/>
+</bns:Component>

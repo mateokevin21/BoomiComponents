@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bns:Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bns="http://api.platform.boomi.com/" folderFullPath="Boomi_KevinMateo" componentId="bb43dec5-f30e-4ab1-923d-611e46044fad" version="2" name="Hello World Operation" type="connector-action" subType="wss" createdDate="2022-09-01T13:31:26Z" createdBy="kevin.mateo@boomi.com" modifiedDate="2022-10-25T04:05:10Z" modifiedBy="kevin.mateo@boomi.com" deleted="false" currentVersion="true" folderName="Boomi_KevinMateo" folderId="RjoyMzc5NDAw">
+  <bns:encryptedValues/>
+  <bns:description/>
+  <bns:object>
+    <Operation xmlns="">
+      <Archiving directory="" enabled="false"/>
+      <Configuration>
+        <WebServicesServerListenAction inputType="none" objectName="HelloWorld" operationType="GET" outputType="singledata" responseContentType="text/plain"/>
+      </Configuration>
+      <Tracking>
+        <TrackedFields/>
+      </Tracking>
+      <Caching/>
+    </Operation>
+  </bns:object>
+</bns:Component>
